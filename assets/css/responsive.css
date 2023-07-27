@@ -5,7 +5,13 @@
         padding: 50px 0 !important;
     }
 
+    .why__appeal_text {
+        text-align: center;
+    }
 
+    .appeal__about_text {
+        text-align: center;
+    }
 
 
     .aboutText {
@@ -49,9 +55,24 @@
         max-height: auto;
     }
 
+    .weNeedHelpSection {
+        margin-top: 75px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+
+    .appeal__bannerText h1 {
+        font-size: 38px;
+    }
+    
+    footer {
+        margin-top: 30px;
+    }
+
+    .quoteSection {
+        margin-bottom: 50px;
+    }
 
     .bottom__header {
         padding: 25px 24px;
@@ -69,7 +90,7 @@
     }
 
     p {
-        font-size: 15px;
+        font-size: 15px !important;
         line-height: 110%;
     }
 
@@ -101,9 +122,6 @@
         padding: 40px 0 !important;
     }
 
-    footer {
-        margin-top: 30px;
-    }
 
     .numberSection {
         margin: 40px auto 0;

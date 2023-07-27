@@ -255,6 +255,10 @@ section .container>.section__heading {
     line-height: normal;
 }
 
+.inner__banner__padding {
+    padding: 30px 0 75px;
+}
+
 /*** ========= UTILITIES END ==========*/
 
 
@@ -1015,3 +1019,155 @@ footer .container {
 }
 
 /**============ FOOTER END ================  */
+
+
+/***** APPEAL PAGE START *****/
+/**============ APPEAL BANNER START ================  */
+
+.appealBanner .container {
+    max-width: 1400px;
+}
+
+.appeal__bannerbtn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -22px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.appealBanner .img-wrap {
+    position: relative;
+    text-align: center;
+
+    margin-bottom: 52px;
+}
+
+.appeal__bannerText h1 {
+    color: var(--clr-primary);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+/**============ APPEAL BANNER END ================  */
+
+/**============ WHY APPEAL SECTION START ================  */
+
+.why__appeal_section {
+    padding: 75px 0 150px;
+}
+
+.appeal__last_section {
+    padding: 150px 0 0;
+}
+
+.why__appeal_text {
+    max-width: 508px;
+    width: 100%;
+}
+
+.why__appeal_text p {
+    font-size: 18px;
+    line-height: 131.4%;
+    /* 23.652px */
+    color: #383838;
+    margin-bottom: 15px;
+}
+
+.why__appeal_text p:nth-last-of-type(1) {
+    margin-bottom: 30px;
+}
+
+/**============ WHY APPEAL SECTION END ================  */
+
+/**============ QUOTE SECTION START ================  */
+.quoteSection {
+    background-color: var(--clr-primary);
+    padding: 70px 0;
+    margin-bottom: 150px;
+}
+
+.quoteSection h5 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.quoteSection h5 strong {
+    font-weight: 600;
+}
+
+/**============ QUOTE SECTION END ================  */
+
+/**============ ABOUT APPEAL SECTION START ================  */
+.appeal__about_text {
+    max-width: 470px;
+    width: 100%;
+
+    align-self: center;
+}
+
+.appeal__about .img-wrap {
+    max-width: 100%;
+}
+
+.appeal__about_text p {
+    color: #383838;
+
+    font-family: Montserrat;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131.4%
+}
+
+/**============ ABOUT APPEAL SECTION END ================  */
+
+/**============ WE NEED HELP SECTION STARTR ================  */
+.weNeedHelpSection {
+    padding: 117px 0;
+    margin-top: 150px;
+
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.weNeedHelpText {
+    text-align: center;
+}
+
+.weNeedHelpText h4 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+  
+}
+
+.weNeedHelpText p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    margin-bottom: 20px;    
+    max-width: 671.317px;
+    width: 100%;
+}
+
+/**============ WE NEED HELP SECTION END ================  */
+
+
+/***** APPEAL PAGE END *****/
