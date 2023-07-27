@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-------------- bootstrap css start-------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- ------------bootstrap css End-------------->
+
+  <!----- ------------font awesome start ----------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!----- ------------font awesome End ----------------->
+
+
+  <!-- ------------slick css Start -------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ------------slick css End-------------->
+
+  <!-- ------------jquery Start -------------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- ------------jquery Start -------------->
+
+
+  <!-- ------------FancyBox start-------------->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <!-------------- FancyBox End-------------->
+
+  <!-- ------------fonts START-------------->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- ------------fonts END-------------->
+
+  <!-------- local files Start -------->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <!-- ------local files End -------->
+
+  <title>Home</title>
+</head>
+
+<body>
+
+
+  <!-- -=================HEADER START ============= -->
+  <header>
+    <div class="top__header">
+      <div class="container">
+        <div class="top__headerflex">
+          <div class="header__sideBtn">
+            <a href="#">Get in Touch</a>
+            <a href="tel: +44 (0) 1217534 339">+44 (0) 1217534 339</a>
+          </div>
+          <div>
+            <a href="#" class="partner__btn">Partners</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom__header container headerContainer">
+      <div class="logo">
+        <img src="./assets/images/header__logo.png" alt="">
+      </div>
+      <nav>
+        <ul class="navList">
+          <li>Appeals
+            <span class="nav__arrow">
+              <img src="./assets/images/arrow-down-icon.png">
+            </span>
+            <ul class="submenu">
+              <li><a href="#">Option</a></li>
+              <li><a href="#">Option</a></li>
+              <li><a href="#">Option</a></li>
+            </ul>
+          </li>
+          <li>Projects
+            <span class="nav__arrow">
+              <img src="./assets/images/arrow-down-icon.png">
+            </span>
+            <ul class="submenu">
+              <li><a href="#">Option</a></li>
+              <li><a href="#">Option</a></li>
+              <li><a href="#">Option</a></li>
+            </ul>
+          </li>
+          <li><a href="">Qurbani</a></li>
+          <li>About
+            <span class="nav__arrow">
+              <img src="./assets/images/arrow-down-icon.png">
+            </span>
+            <ul class="submenu">
+              <li><a href="#">Option</a></li>
+              <li><a href="#">Option</a></li>
+              <li><a href="#">Option</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="headerButton">
+          <a href="#" class="btn btn-primary">Donate Now <img src="./assets/images/white-heart.png"></a>
+        </div>
+      </nav>
+      <div class="burger-menu" id="menu-toggle">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="mobile-nav">
+        <div class="mobileLogo">
+          <img src="assets/images/logo.png" alt="logo">
+          <button class="cross" id="crossNav"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <ul class="mobileNavList">
+          <li><a href="#">Appeals</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Qurbani</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- -=================HEADER END ============= -->
+
+  <!--============= HOME BANNER START ========== -->
+  <section class="homeBanner">
+    <div class="container">
+      <div class="img-wrap">
+        <img src="./assets/images/banners/home_banner.png" alt="">
+      </div>
+      <div class="util__panel">
+        <h2>Horn of Africa <br> Emergency Appeal</h2>
+        <div class="homeBannerText">
+          <p>We believe in the transformative power of collective action. By uniting compassionate hearts and </p>
+          <a href="#" class="btn btn-secondary">Donate now<img src="./assets/images/white-heart.png"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============= HOME BANNER END ========== -->
+
+  <!--============= ABOUT SECTION START ========== -->
+  <section class="about">
+    <div class="container">
+      <div class="util__panel">
+        <div class="img-wrap">
+          <img src="./assets/images/about-img.png" alt="">
+        </div>
+        <div class="aboutText">
+
+          <h4 class="section__heading">About us</h4>
+          <p>We believe in the trans-formative power of collective action. By uniting compassionate hearts and generous
+            spirits, we can create a ripple effect of positive change that extends far beyond our immediate reach. We
+            believe in the trans-formative power of .positive change that extends far beyond our immediate reach. We
+            believe in the trans-formative power of generous spirits, we can create a ripple effect of positive change
+            that extends far beyond our immediate reach. </p>
+          <a href="#" class="btn btn-primary">Donate now<img src="./assets/images/white-heart.png"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============= ABOUT SECTION END ========== -->
+
+
+  <!--============= NUMBER SECTION START ========== -->
+  <section class="numberSection">
+    <div class="container">
+      <div class="util__panel">
+        <div class="numberCards">
+          <h5><span class="count">5500</span><span>+</span></h5>
+          <h6>Individual in the
+            local community </h6>
+        </div>
+        <div class="numberCards">
+          <h5><span class="count">20</span><span>+</span></h5>
+          <h6>Years of experience</h6>
+        </div>
+        <div class="numberCards">
+          <h5><span class="count">600</span><span>+</span></h5>
+          <h6>Charity Campaigns</h6>
+        </div>
+        <div class="numberCards">
+          <h5><span class="count">20</span><span>M</span></h5>
+          <h6>Accrued Funding</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============= NUMBER SECTION END ========== -->
+
+  <!--============= CATEGORIES SECTION START ========== -->
+  <section class="categorySection">
+    <div class="container">
+      <h4 class="section__heading text-center">Donation Categories</h4>
+      <div class="util__panel">
+        <div class="categoryCards">
+          <div class="img-wrap">
+            <div class="non_hover_img">
+              <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="42.8952" cy="42" rx="41.9753" ry="42" fill="#F8F3F0" />
+                <path
+                  d="M42.8538 56.625C42.6432 56.625 42.4379 56.6041 42.2378 56.5625C42.0377 56.5208 41.8405 56.4444 41.6462 56.3333L32.0685 51.0833C31.6798 50.8611 31.3675 50.5573 31.1316 50.1719C30.8956 49.7864 30.7776 49.3541 30.7776 48.875V40.375L26.5717 38.0833C26.3536 37.9595 26.195 37.8047 26.0958 37.619C25.9967 37.4333 25.9471 37.227 25.9471 37C25.9471 36.773 25.9967 36.5667 26.0958 36.3809C26.195 36.1952 26.3536 36.0405 26.5717 35.9166L41.6462 27.6666C41.8369 27.5555 42.0328 27.4722 42.2341 27.4166C42.4354 27.3611 42.6419 27.3333 42.8538 27.3333C43.0657 27.3333 43.2723 27.3611 43.4735 27.4166C43.6748 27.4722 43.8708 27.5555 44.0614 27.6666L60.5517 36.625C60.7738 36.7639 60.9404 36.9301 61.0514 37.1236C61.1625 37.3171 61.218 37.5259 61.218 37.75V48.9583C61.218 49.3125 61.0976 49.6094 60.8567 49.8489C60.6159 50.0885 60.3175 50.2083 59.9614 50.2083C59.6054 50.2083 59.3094 50.0885 59.0734 49.8489C58.8374 49.6094 58.7195 49.3125 58.7195 48.9583V38.4583L54.93 40.375V48.875C54.93 49.3541 54.812 49.7864 54.5761 50.1719C54.3401 50.5573 54.0278 50.8611 53.6391 51.0833L44.0614 56.3333C43.8671 56.4444 43.6699 56.5208 43.4698 56.5625C43.2698 56.6041 43.0644 56.625 42.8538 56.625ZM42.8538 44.1666L55.9711 37L42.8538 29.9583L29.8198 37L42.8538 44.1666ZM42.8538 54.1666L52.4315 48.875V41.875L44.0614 46.375C43.8671 46.4861 43.6728 46.5625 43.4784 46.6041C43.2841 46.6458 43.0759 46.6666 42.8538 46.6666C42.6317 46.6666 42.4305 46.6458 42.25 46.6041C42.0696 46.5625 41.8822 46.4861 41.6878 46.375L33.2761 41.7916V48.875L42.8538 54.1666Z"
+                  fill="#396B33" />
+              </svg>
+
+            </div>
+            <div class="hover_img">
+              <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="42.6745" cy="42" rx="41.9753" ry="42" fill="white" />
+                <path
+                  d="M42.6331 56.625C42.4225 56.625 42.2172 56.6041 42.0171 56.5625C41.817 56.5208 41.6198 56.4444 41.4255 56.3333L31.8478 51.0833C31.4591 50.8611 31.1468 50.5573 30.9108 50.1719C30.6749 49.7864 30.5569 49.3541 30.5569 48.875V40.375L26.351 38.0833C26.1329 37.9595 25.9743 37.8047 25.8751 37.619C25.776 37.4333 25.7264 37.227 25.7264 37C25.7264 36.773 25.776 36.5667 25.8751 36.3809C25.9743 36.1952 26.1329 36.0405 26.351 35.9166L41.4255 27.6666C41.6161 27.5555 41.8121 27.4722 42.0134 27.4166C42.2146 27.3611 42.4212 27.3333 42.6331 27.3333C42.845 27.3333 43.0515 27.3611 43.2528 27.4166C43.4541 27.4722 43.6501 27.5555 43.8407 27.6666L60.331 36.625C60.5531 36.7639 60.7197 36.9301 60.8307 37.1236C60.9417 37.3171 60.9973 37.5259 60.9973 37.75V48.9583C60.9973 49.3125 60.8769 49.6094 60.636 49.8489C60.3952 50.0885 60.0967 50.2083 59.7407 50.2083C59.3847 50.2083 59.0887 50.0885 58.8527 49.8489C58.6167 49.6094 58.4987 49.3125 58.4987 48.9583V38.4583L54.7093 40.375V48.875C54.7093 49.3541 54.5913 49.7864 54.3554 50.1719C54.1194 50.5573 53.8071 50.8611 53.4184 51.0833L43.8407 56.3333C43.6464 56.4444 43.4492 56.5208 43.2491 56.5625C43.049 56.6041 42.8437 56.625 42.6331 56.625ZM42.6331 44.1666L55.7504 37L42.6331 29.9583L29.5991 37L42.6331 44.1666ZM42.6331 54.1666L52.2108 48.875V41.875L43.8407 46.375C43.6464 46.4861 43.4521 46.5625 43.2577 46.6041C43.0634 46.6458 42.8552 46.6666 42.6331 46.6666C42.411 46.6666 42.2097 46.6458 42.0293 46.6041C41.8488 46.5625 41.6614 46.4861 41.4671 46.375L33.0554 41.7916V48.875L42.6331 54.1666Z"
+                  fill="#396B33" />
+              </svg>
+
+            </div>
+          </div>
+          <h4>Education</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          <a href="#" class="btn btn-secondary">Donate now<img src="./assets/images/white-heart.png"></a>
+        </div>
+        <div class="categoryCards">
+          <div class="img-wrap">
+            <div class="non_hover_img">
+              <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="42.8952" cy="42" rx="41.9753" ry="42" fill="#F8F3F0" />
+                <path
+                  d="M42.8538 56.625C42.6432 56.625 42.4379 56.6041 42.2378 56.5625C42.0377 56.5208 41.8405 56.4444 41.6462 56.3333L32.0685 51.0833C31.6798 50.8611 31.3675 50.5573 31.1316 50.1719C30.8956 49.7864 30.7776 49.3541 30.7776 48.875V40.375L26.5717 38.0833C26.3536 37.9595 26.195 37.8047 26.0958 37.619C25.9967 37.4333 25.9471 37.227 25.9471 37C25.9471 36.773 25.9967 36.5667 26.0958 36.3809C26.195 36.1952 26.3536 36.0405 26.5717 35.9166L41.6462 27.6666C41.8369 27.5555 42.0328 27.4722 42.2341 27.4166C42.4354 27.3611 42.6419 27.3333 42.8538 27.3333C43.0657 27.3333 43.2723 27.3611 43.4735 27.4166C43.6748 27.4722 43.8708 27.5555 44.0614 27.6666L60.5517 36.625C60.7738 36.7639 60.9404 36.9301 61.0514 37.1236C61.1625 37.3171 61.218 37.5259 61.218 37.75V48.9583C61.218 49.3125 61.0976 49.6094 60.8567 49.8489C60.6159 50.0885 60.3175 50.2083 59.9614 50.2083C59.6054 50.2083 59.3094 50.0885 59.0734 49.8489C58.8374 49.6094 58.7195 49.3125 58.7195 48.9583V38.4583L54.93 40.375V48.875C54.93 49.3541 54.812 49.7864 54.5761 50.1719C54.3401 50.5573 54.0278 50.8611 53.6391 51.0833L44.0614 56.3333C43.8671 56.4444 43.6699 56.5208 43.4698 56.5625C43.2698 56.6041 43.0644 56.625 42.8538 56.625ZM42.8538 44.1666L55.9711 37L42.8538 29.9583L29.8198 37L42.8538 44.1666ZM42.8538 54.1666L52.4315 48.875V41.875L44.0614 46.375C43.8671 46.4861 43.6728 46.5625 43.4784 46.6041C43.2841 46.6458 43.0759 46.6666 42.8538 46.6666C42.6317 46.6666 42.4305 46.6458 42.25 46.6041C42.0696 46.5625 41.8822 46.4861 41.6878 46.375L33.2761 41.7916V48.875L42.8538 54.1666Z"
+                  fill="#396B33" />
+              </svg>
+
+            </div>
+            <div class="hover_img">
+              <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="42.6745" cy="42" rx="41.9753" ry="42" fill="white" />
+                <path
+                  d="M42.6331 56.625C42.4225 56.625 42.2172 56.6041 42.0171 56.5625C41.817 56.5208 41.6198 56.4444 41.4255 56.3333L31.8478 51.0833C31.4591 50.8611 31.1468 50.5573 30.9108 50.1719C30.6749 49.7864 30.5569 49.3541 30.5569 48.875V40.375L26.351 38.0833C26.1329 37.9595 25.9743 37.8047 25.8751 37.619C25.776 37.4333 25.7264 37.227 25.7264 37C25.7264 36.773 25.776 36.5667 25.8751 36.3809C25.9743 36.1952 26.1329 36.0405 26.351 35.9166L41.4255 27.6666C41.6161 27.5555 41.8121 27.4722 42.0134 27.4166C42.2146 27.3611 42.4212 27.3333 42.6331 27.3333C42.845 27.3333 43.0515 27.3611 43.2528 27.4166C43.4541 27.4722 43.6501 27.5555 43.8407 27.6666L60.331 36.625C60.5531 36.7639 60.7197 36.9301 60.8307 37.1236C60.9417 37.3171 60.9973 37.5259 60.9973 37.75V48.9583C60.9973 49.3125 60.8769 49.6094 60.636 49.8489C60.3952 50.0885 60.0967 50.2083 59.7407 50.2083C59.3847 50.2083 59.0887 50.0885 58.8527 49.8489C58.6167 49.6094 58.4987 49.3125 58.4987 48.9583V38.4583L54.7093 40.375V48.875C54.7093 49.3541 54.5913 49.7864 54.3554 50.1719C54.1194 50.5573 53.8071 50.8611 53.4184 51.0833L43.8407 56.3333C43.6464 56.4444 43.4492 56.5208 43.2491 56.5625C43.049 56.6041 42.8437 56.625 42.6331 56.625ZM42.6331 44.1666L55.7504 37L42.6331 29.9583L29.5991 37L42.6331 44.1666ZM42.6331 54.1666L52.2108 48.875V41.875L43.8407 46.375C43.6464 46.4861 43.4521 46.5625 43.2577 46.6041C43.0634 46.6458 42.8552 46.6666 42.6331 46.6666C42.411 46.6666 42.2097 46.6458 42.0293 46.6041C41.8488 46.5625 41.6614 46.4861 41.4671 46.375L33.0554 41.7916V48.875L42.6331 54.1666Z"
+                  fill="#396B33" />
+              </svg>
+
+            </div>
+          </div>
+          <h4>Education</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          <a href="#" class="btn btn-secondary">Donate now<img src="./assets/images/white-heart.png"></a>
+        </div>
+        <div class="categoryCards">
+          <div class="img-wrap">
+            <div class="non_hover_img">
+              <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="42.8952" cy="42" rx="41.9753" ry="42" fill="#F8F3F0" />
+                <path
+                  d="M42.8538 56.625C42.6432 56.625 42.4379 56.6041 42.2378 56.5625C42.0377 56.5208 41.8405 56.4444 41.6462 56.3333L32.0685 51.0833C31.6798 50.8611 31.3675 50.5573 31.1316 50.1719C30.8956 49.7864 30.7776 49.3541 30.7776 48.875V40.375L26.5717 38.0833C26.3536 37.9595 26.195 37.8047 26.0958 37.619C25.9967 37.4333 25.9471 37.227 25.9471 37C25.9471 36.773 25.9967 36.5667 26.0958 36.3809C26.195 36.1952 26.3536 36.0405 26.5717 35.9166L41.6462 27.6666C41.8369 27.5555 42.0328 27.4722 42.2341 27.4166C42.4354 27.3611 42.6419 27.3333 42.8538 27.3333C43.0657 27.3333 43.2723 27.3611 43.4735 27.4166C43.6748 27.4722 43.8708 27.5555 44.0614 27.6666L60.5517 36.625C60.7738 36.7639 60.9404 36.9301 61.0514 37.1236C61.1625 37.3171 61.218 37.5259 61.218 37.75V48.9583C61.218 49.3125 61.0976 49.6094 60.8567 49.8489C60.6159 50.0885 60.3175 50.2083 59.9614 50.2083C59.6054 50.2083 59.3094 50.0885 59.0734 49.8489C58.8374 49.6094 58.7195 49.3125 58.7195 48.9583V38.4583L54.93 40.375V48.875C54.93 49.3541 54.812 49.7864 54.5761 50.1719C54.3401 50.5573 54.0278 50.8611 53.6391 51.0833L44.0614 56.3333C43.8671 56.4444 43.6699 56.5208 43.4698 56.5625C43.2698 56.6041 43.0644 56.625 42.8538 56.625ZM42.8538 44.1666L55.9711 37L42.8538 29.9583L29.8198 37L42.8538 44.1666ZM42.8538 54.1666L52.4315 48.875V41.875L44.0614 46.375C43.8671 46.4861 43.6728 46.5625 43.4784 46.6041C43.2841 46.6458 43.0759 46.6666 42.8538 46.6666C42.6317 46.6666 42.4305 46.6458 42.25 46.6041C42.0696 46.5625 41.8822 46.4861 41.6878 46.375L33.2761 41.7916V48.875L42.8538 54.1666Z"
+                  fill="#396B33" />
+              </svg>
+
+            </div>
+            <div class="hover_img">
+              <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="42.6745" cy="42" rx="41.9753" ry="42" fill="white" />
+                <path
+                  d="M42.6331 56.625C42.4225 56.625 42.2172 56.6041 42.0171 56.5625C41.817 56.5208 41.6198 56.4444 41.4255 56.3333L31.8478 51.0833C31.4591 50.8611 31.1468 50.5573 30.9108 50.1719C30.6749 49.7864 30.5569 49.3541 30.5569 48.875V40.375L26.351 38.0833C26.1329 37.9595 25.9743 37.8047 25.8751 37.619C25.776 37.4333 25.7264 37.227 25.7264 37C25.7264 36.773 25.776 36.5667 25.8751 36.3809C25.9743 36.1952 26.1329 36.0405 26.351 35.9166L41.4255 27.6666C41.6161 27.5555 41.8121 27.4722 42.0134 27.4166C42.2146 27.3611 42.4212 27.3333 42.6331 27.3333C42.845 27.3333 43.0515 27.3611 43.2528 27.4166C43.4541 27.4722 43.6501 27.5555 43.8407 27.6666L60.331 36.625C60.5531 36.7639 60.7197 36.9301 60.8307 37.1236C60.9417 37.3171 60.9973 37.5259 60.9973 37.75V48.9583C60.9973 49.3125 60.8769 49.6094 60.636 49.8489C60.3952 50.0885 60.0967 50.2083 59.7407 50.2083C59.3847 50.2083 59.0887 50.0885 58.8527 49.8489C58.6167 49.6094 58.4987 49.3125 58.4987 48.9583V38.4583L54.7093 40.375V48.875C54.7093 49.3541 54.5913 49.7864 54.3554 50.1719C54.1194 50.5573 53.8071 50.8611 53.4184 51.0833L43.8407 56.3333C43.6464 56.4444 43.4492 56.5208 43.2491 56.5625C43.049 56.6041 42.8437 56.625 42.6331 56.625ZM42.6331 44.1666L55.7504 37L42.6331 29.9583L29.5991 37L42.6331 44.1666ZM42.6331 54.1666L52.2108 48.875V41.875L43.8407 46.375C43.6464 46.4861 43.4521 46.5625 43.2577 46.6041C43.0634 46.6458 42.8552 46.6666 42.6331 46.6666C42.411 46.6666 42.2097 46.6458 42.0293 46.6041C41.8488 46.5625 41.6614 46.4861 41.4671 46.375L33.0554 41.7916V48.875L42.6331 54.1666Z"
+                  fill="#396B33" />
+              </svg>
+
+            </div>
+          </div>
+          <h4>Education</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          <a href="#" class="btn btn-secondary">Donate now<img src="./assets/images/white-heart.png"></a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--============= CATEGORIES SECTION END ========== -->
+
+
+  <!--============= CAMPAIGN SECTION START ========== -->
+  <section class="campaignSection">
+    <div class="container">
+
+      <h4 class="section__heading text-center">Our Ongoing Campaigns</h4>
+      <div class="util__panel">
+        <div class="campaignCards">
+          <a href=""><img src="./assets/images/share-img.png" class="share__img" alt=""></a>
+          <div class="img-wrap">
+            <img src="./assets/images/campaign-1.png" alt="">
+          </div>
+          <div class="campaignText">
+            <h5>Emergency Aid</h5>
+            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
+            <a href="#" class="btn btn-primary">Donate Now <img src="./assets/images/white-heart.png"></a>
+          </div>
+        </div>
+        <div class="campaignCards">
+          <a href=""><img src="./assets/images/share-img.png" class="share__img" alt=""></a>
+          <div class="img-wrap">
+            <img src="./assets/images/campaign-2.png" alt="">
+          </div>
+          <div class="campaignText">
+            <h5>Education Projects </h5>
+            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
+            <a href="#" class="btn btn-primary">Donate Now <img src="./assets/images/white-heart.png"></a>
+          </div>
+        </div>
+        <div class="campaignCards">
+          <a href=""><img src="./assets/images/share-img.png" class="share__img" alt=""></a>
+          <div class="img-wrap">
+            <img src="./assets/images/campaign-1.png" alt="">
+          </div>
+          <div class="campaignText">
+            <h5>Water Project </h5>
+            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
+            <a href="#" class="btn btn-primary">Donate Now <img src="./assets/images/white-heart.png"></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--============= CAMPAIGN SECTION END ========== -->
+
+  <!--============= GALLERY SECTION START ========== -->
+  <section class="gallerySection">
+    <div class="galleryMain">
+      <div class="galleryText">
+        <div>
+          <h5>See Your Impact</h5>
+          <p>Documenting Our Charity Work Ensuring
+            Transparency and Accountability
+          </p>
+          <a href="#" class="btn btn-primary">See All <img src="./assets/images/arrow-side-icon.png"></a>
+        </div>
+      </div>
+
+
+      <div class="vertical__animation__container">
+        <div>
+          <img src="./assets/images/gallery-img-1.png" alt="">
+          <img src="./assets/images/gallery-img-1.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-1.png" alt="">
+          <img src="./assets/images/gallery-img-1.png" alt="">
+        </div>
+      </div>
+      <div class="vertical__animation__container reverse__animated">
+        <div>
+          <img src="./assets/images/gallery-img-2.png" alt="">
+          <img src="./assets/images/gallery-img-2.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-2.png" alt="">
+          <img src="./assets/images/gallery-img-2.png" alt="">
+        </div>
+      </div>
+      <div class="vertical__animation__container">
+        <div>
+          <img src="./assets/images/gallery-img-3.png" alt="">
+          <img src="./assets/images/gallery-img-3.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-3.png" alt="">
+          <img src="./assets/images/gallery-img-3.png" alt="">
+        </div>
+      </div>
+      <div class="vertical__animation__container reverse__animated">
+        <div>
+          <img src="./assets/images/gallery-img-4.png" alt="">
+          <img src="./assets/images/gallery-img-4.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-4.png" alt="">
+          <img src="./assets/images/gallery-img-4.png" alt="">
+        </div>
+      </div>
+      <div class="vertical__animation__container">
+        <div>
+          <img src="./assets/images/gallery-img-5.png" alt="">
+          <img src="./assets/images/gallery-img-5.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-5.png" alt="">
+          <img src="./assets/images/gallery-img-5.png" alt="">
+        </div>
+      </div>
+      <div class="vertical__animation__container reverse__animated">
+        <div>
+          <img src="./assets/images/gallery-img-6.png" alt="">
+          <img src="./assets/images/gallery-img-6.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-6.png" alt="">
+          <img src="./assets/images/gallery-img-6.png" alt="">
+        </div>
+      </div>
+
+      <div class="vertical__animation__container">
+        <div>
+          <img src="./assets/images/gallery-img-3.png" alt="">
+          <img src="./assets/images/gallery-img-3.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-3.png" alt="">
+          <img src="./assets/images/gallery-img-3.png" alt="">
+        </div>
+      </div>
+      <div class="vertical__animation__container reverse__animated">
+        <div>
+          <img src="./assets/images/gallery-img-2.png" alt="">
+          <img src="./assets/images/gallery-img-2.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-2.png" alt="">
+          <img src="./assets/images/gallery-img-2.png" alt="">
+        </div>
+      </div>
+      <div class="vertical__animation__container">
+        <div>
+          <img src="./assets/images/gallery-img-1.png" alt="">
+          <img src="./assets/images/gallery-img-1.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/gallery-img-1.png" alt="">
+          <img src="./assets/images/gallery-img-1.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--============= GALLERY SECTION END ========== -->
+
+  <!--============= FOOTER START ========== -->
+  <footer>
+    <div class="container">
+      <div class="footerMain util__panel">
+        <div class="footerText">
+          <div class="ft__logo">
+            <img src="./assets/images/logo.png" alt="">
+          </div>
+          <p>African Relief Fund is one of the leading,
+            non-profit organization, fully dedicated to 
+            humanitarian services since 2000.
+            African Relief Fund is one of the leading,
+            non-profit organization, fully dedicated to 
+            humanitarian services since 2000. </p>
+        </div>
+
+        <div class="ft__links">
+          <div class="util__panel">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Campaigns</a></li>
+              <li><a href="#">Zakat Calculator</a></li>
+              <li><a href="#">Donate Now</a></li>
+            </ul>
+            <ul>
+        
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Term of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+      
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footerSecondary util__panel">
+        <div class="footer_side_wrapper">
+          <div>
+            <h6>Connect with us</h6>
+            <ul class="ft__icons">
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div>
+            <h6>Call us</h6>
+            <a href="tel: 0121 7534 339">0121 7534 339</a>
+          </div>
+        </div>
+        <p>© 2022 African Relief Fund is a registered charity in England (1062752)</p>
+
+      </div>
+
+    </div>
+  </footer>
+  <!--============= FOOTER END ========== -->
+</body>
+
+<!------------ bootstrap js start ------------>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!------------ bootstrap js End ------------>
+
+<!------------ slick js Start ------------>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+  integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!------------ slick js End ------------>
+
+<!------------ ion icons Start------------>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!------------ ion icons End------------>
+
+
+<!-------------- local files Start -------------->
+<script src="./assets/js/script.js"></script>
+<!-------------- local files End -------------->
+
+</html>

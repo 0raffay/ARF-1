@@ -1,0 +1,145 @@
+@media only screen and (max-width: 992px) {
+
+    section,
+    footer {
+        padding: 50px 0 !important;
+    }
+
+
+
+
+    .aboutText {
+        text-align: center;
+    }
+
+    .aboutText p {
+        margin: 10px auto;
+    }
+
+    .numberCards {
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .focus .hr-animation-container {
+        margin-bottom: 20px;
+    }
+
+    .footerText p {
+        margin: 0 0 10px;
+    }
+
+    .footerMain {
+        text-align: center;
+    }
+
+    .ft__links .util__panel {
+        margin-bottom: 20px;
+    }
+
+    .ft__logo img {
+        margin: 0 auto;
+    }
+
+    .gallerySection .vertical__animation__container {
+        height: auto;
+        max-height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bottom__header {
+        padding: 25px 24px;
+    }
+    .header__sideBtn a {
+        font-size: 12px;
+    }
+
+    .homeBanner h2 {
+        font-size: 45px;
+    }
+
+    .homeBanner .util__panel {
+        text-align: center;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 110%;
+    }
+
+    .numberCards h5 {
+        font-size: 45px;
+    }
+
+    .numberCards h6 {
+        font-size: 16px;
+    }
+
+    .section__heading {
+        font-size: 30px;
+    }
+
+    .categoryCards h4 {
+        font-size: 24px;
+    }
+
+    .categoryCards p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    section,
+    footer {
+        padding: 40px 0 !important;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+
+    .numberSection {
+        margin: 40px auto 0;
+    }
+
+    .galleryMain {
+        gap: 2px;
+    }
+
+    .gallerySection .vertical__animation__container {
+        height: 300px;
+        gap: 0;
+    }
+
+    .gallerySection .vertical__animation__container>* {
+        animation-duration: 10s;
+        gap: 0;
+    }
+
+    .footer_side_wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footerSecondary p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+    .burger-menu>div {
+        width: 30px;
+        height: 4px;
+        ;
+    }
+}
